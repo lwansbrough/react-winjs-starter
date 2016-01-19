@@ -1,7 +1,7 @@
-import { routerStateReducer } from 'redux-react-router';
+import { routeReducer as router } from 'redux-simple-router';
 import config from './config';
 
 export default {
-  router: routerStateReducer,
+  router,
   config
 };

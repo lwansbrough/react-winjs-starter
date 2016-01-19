@@ -12,7 +12,7 @@ var browserify = require('browserify'),
 gulp.task('browserify', function() {
 
     return browserify({
-        entries: ['./src/js/app.jsx'],
+        entries: ['./src/js/app'],
         paths: [
           './src/js/'
         ],
